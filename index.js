@@ -38,7 +38,7 @@ const day30TempC = 29;
 
 const tot_temperature_in_fahrenheit = day1TempF + day3TempF + day5TempF + day7TempF + day9TempF + day11TempF + day13TempF + day15TempF + day17TempF + day19TempF + day21TempF + day23TempF + day25TempF + day27TempF + day29TempF + (day2TempC * 9 / 5) + 32 + (day4TempC * 9 / 5) + 32 + (day6TempC * 9 / 5) + 32 + (day8TempC * 9 / 5) + 32 + (day10TempC * 9 / 5) + 32 + (day12TempC * 9 / 5) + 32 + (day14TempC * 9 / 5) + 32 + (day16TempC * 9 / 5) + 32 + (day18TempC * 9 / 5) + 32 + (day20TempC * 9 / 5) + 32 + (day22TempC * 9 / 5) + 32 + (day24TempC * 9 / 5) + 32 + (day26TempC * 9 / 5) + 32 + (day28TempC * 9 / 5) + 32 + (day30TempC * 9 / 5) + 32;
 
-const tot_temperature_in_celsius = (tot_temperature_in_fahrenheit - 32) * 5 / 9;
+const tot_temperature_in_celsius = (tot_temperature_in_fahrenheit - 32 * 30) * 5 / 9;
 
 console.log(tot_temperature_in_fahrenheit);
 console.log(tot_temperature_in_celsius);
